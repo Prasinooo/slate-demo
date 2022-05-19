@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import RichTextExample from './Editor/examples/richtext.tsx';
+import ImagesExample from './Editor/examples/images.tsx';
+import TablesExample from './Editor/examples/tables.tsx';
 
 function App() {
   return (
     <div className="App">
-    <RichTextExample />
+      <RichTextExample />
+
+      <ImagesExample />
+
+      <TablesExample />
     </div>
       // <header className="App-header">
       //   <img src={logo} className="App-logo" alt="logo" />
